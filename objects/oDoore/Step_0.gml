@@ -28,7 +28,7 @@ x = x + xVector;
 if(place_meeting(x, y - yVector, oDirt))
 {
 	//! means "not"
-	//sign(yVector) is only one square at a time
+	//yDirection is only one square at a time
 	while(!place_meeting(x, y + yDirection, oDirt))
 	{
 	//move one pixel
@@ -37,12 +37,6 @@ if(place_meeting(x, y - yVector, oDirt))
 	yVector = 0;
 }
 y = y - yVector;
-
-if (place_meeting(x, y, oCoin))
-{
-	instance_destroy(oCoin)
-}
-
 
 
 
