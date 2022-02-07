@@ -38,7 +38,25 @@ if(place_meeting(x, y - yVector, oDirt))
 }
 y = y - yVector;
 
+function PlayerHurt()
+{
+	if (!oDoore.isinvincible)
+		{
+			oDoore.hp -=1;
+			isinvincible = true;
+			alarm_set(0,5);
+			
+				if (oDoore.hp<1)
+					{
+						PlayerDeath();
+					}
+		}
+}
 
+function PlayerDeath()
+{
+	room_restart();
+}
 
 
 

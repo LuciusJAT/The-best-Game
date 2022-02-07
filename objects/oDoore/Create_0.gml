@@ -16,27 +16,11 @@ xVector = 0;
 yVector = 0;
 
 hp = 3;
-isinvincible = false;
+oDoore.isinvincible = false;
 
 global.coins = 0;
 
-function PlayerHurt()
-{
-	if (!oDoore. isinvincible)
-		{
-			isinvincible = true;
-			oDoore. hp -= 1;
-				if (oDoore. hp<1)
-					{
-						PlayerDeath();
-					}
-		}
-}
 
-function PlayerDeath()
-{
-	room_restart();
-}
 //in hud create global. Lives = 3
 //global. Lives -= 1
 // if global. Lives >0
