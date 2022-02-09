@@ -1,9 +1,13 @@
 {
   "resources": [
+    {"id":{"name":"swordR","path":"sprites/swordR/swordR.yy",},"order":3,},
     {"id":{"name":"oDirt","path":"objects/oDirt/oDirt.yy",},"order":1,},
     {"id":{"name":"sCoin","path":"sprites/sCoin/sCoin.yy",},"order":3,},
+    {"id":{"name":"swordU","path":"sprites/swordU/swordU.yy",},"order":4,},
+    {"id":{"name":"swordD","path":"sprites/swordD/swordD.yy",},"order":1,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
     {"id":{"name":"sEnemy","path":"sprites/sEnemy/sEnemy.yy",},"order":2,},
+    {"id":{"name":"swordL","path":"sprites/swordL/swordL.yy",},"order":2,},
     {"id":{"name":"oEnemy","path":"objects/oEnemy/oEnemy.yy",},"order":2,},
     {"id":{"name":"sDoore","path":"sprites/sDoore/sDoore.yy",},"order":0,},
     {"id":{"name":"oHud","path":"objects/oHud/oHud.yy",},"order":4,},
@@ -42,6 +46,7 @@
     {"folderPath":"folders/Animation Curves.yy","order":12,"resourceVersion":"1.0","name":"Animation Curves","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Notes.yy","order":13,"resourceVersion":"1.0","name":"Notes","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Extensions.yy","order":14,"resourceVersion":"1.0","name":"Extensions","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Sprites/sDoore.yy","order":8,"resourceVersion":"1.0","name":"sDoore","tags":[],"resourceType":"GMFolder",},
   ],
   "AudioGroups": [
     {"targets":-1,"resourceVersion":"1.3","name":"audiogroup_default","resourceType":"GMAudioGroup",},

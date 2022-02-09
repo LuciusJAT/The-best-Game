@@ -6,3 +6,7 @@ place_meeting(x,y, oDoore)
 	PlayerHurt();
 }
 
+else place_meeting(x, y, oDoore)
+{
+	
+}

@@ -59,5 +59,10 @@ function PlayerDeath()
 }
 
 
+sword = keyboard_check(s)
 
+xDirection = 1;
+xDirection = -1;
 
+yDirection = -1;
+yDirection = 1;
