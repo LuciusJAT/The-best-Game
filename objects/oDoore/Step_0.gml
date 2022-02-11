@@ -12,6 +12,8 @@ yDirection = up - down;
 xVector = xSpeed * xDirection;
 yVector = ySpeed * yDirection;
 
+//TODO: ask ansell about setting facing on monday
+
 if(place_meeting(x + xVector, y, oDirt))
 {
 	//! means "not"
@@ -59,10 +61,35 @@ function PlayerDeath()
 }
 
 
-sword = keyboard_check(s)
+if keyboard_check_pressed(vk_enter)
+{
+	if right
+		{
+			sprite_index = swordR
+		}
+}
 
-xDirection = 1;
-xDirection = -1;
+else if keyboard_check_pressed(vk_enter)
+{
+	if left
+		{
+			sprite_index = swordL
+		}
+}
 
-yDirection = -1;
-yDirection = 1;
+else if keyboard_check_pressed(vk_enter)
+{
+	if up
+		{
+			sprite_index = swordU
+		}
+}
+
+else if keyboard_check_pressed(vk_enter)
+{
+	if down
+		{
+			sprite_index = swordD
+		}
+}
+else sprite_index = sDoore
