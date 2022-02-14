@@ -6,6 +6,34 @@ left = keyboard_check(vk_left);
 up = keyboard_check(vk_up);
 down = keyboard_check(vk_down);
 
+if (keyboard_check(vk_right))
+{
+	facing = "right";
+	
+}
+
+else if (keyboard_check(vk_left))
+{
+	facing = "left";
+	
+}
+
+else if (keyboard_check(vk_up))
+{
+	facing = "up";
+	
+}
+
+else if (keyboard_check(vk_down))
+{
+	facing = "down";
+	
+}
+
+
+
+
+
 xDirection = right - left;
 yDirection = up - down;
 
@@ -40,56 +68,42 @@ if(place_meeting(x, y - yVector, oDirt))
 }
 y = y - yVector;
 
-function PlayerHurt()
-{
-	if (!oDoore.isinvincible)
-		{
-			oDoore.hp -=1;
-			isinvincible = true;
-			alarm_set(0,5);
-			
-				if (oDoore.hp<1)
-					{
-						PlayerDeath();
-					}
-		}
-}
-
-function PlayerDeath()
-{
-	room_restart();
-}
-
-
 if keyboard_check_pressed(vk_enter)
 {
-	if right
+	
+	if(facing = "right")
 		{
-			sprite_index = swordR
+			sprite_index = swordR;
+			if image_index = 7
+			{
+				sprite_index = sDoore;
+			}
+		}
+		
+	else if (facing = "left")
+		{
+			sprite_index = swordL;
+			if image_index = 7
+			{
+				sprite_index = sDoore;
+			}
+		}
+	else if(facing = "up")
+		{
+			sprite_index = swordU;
+			if image_index = 7
+			{
+				sprite_index = sDoore;
+			}
+		}
+	else if(facing = "down")
+		{
+			sprite_index = swordD;
+			if image_index = 7
+			{
+				sprite_index = sDoore;
+			}
 		}
 }
 
-else if keyboard_check_pressed(vk_enter)
-{
-	if left
-		{
-			sprite_index = swordL
-		}
-}
-
-else if keyboard_check_pressed(vk_enter)
-{
-	if up
-		{
-			sprite_index = swordU
-		}
-}
-
-else if keyboard_check_pressed(vk_enter)
-{
-	if down
-		{
-			sprite_index = swordD
-		}
-}
-else sprite_index = sDoore
+//else sprite_index = sDoore

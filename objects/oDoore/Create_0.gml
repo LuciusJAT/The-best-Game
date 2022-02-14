@@ -7,7 +7,8 @@ ySpeed = 4;
 // direction we are facing
 xDirection = 0;
 yDirection = 0;
-facing = fRight;
+
+facing = "right";
 
 // multiply speed by direction
 xVector = xSpeed * xDirection;

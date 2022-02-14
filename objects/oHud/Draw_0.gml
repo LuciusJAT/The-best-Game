@@ -3,3 +3,4 @@
 
 draw_text(40,64,"hp:" + string(oDoore.hp));
 draw_text(40,40,"coins:" + string(global.coins));
+
