@@ -69,8 +69,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Hearts",
+    "path": "folders/Sprites/Hearts.yy",
   },
   "resourceVersion": "1.0",
   "name": "Hearts2",

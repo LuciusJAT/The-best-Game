@@ -75,34 +75,34 @@ if keyboard_check_pressed(vk_enter)
 		{
 			sprite_index = swordR;
 			if image_index = 7
-			{
-				sprite_index = sDoore;
-			}
+				{
+					sprite_index = sDoore;
+				}
 		}
 		
 	else if (facing = "left")
 		{
 			sprite_index = swordL;
 			if image_index = 7
-			{
-				sprite_index = sDoore;
-			}
+				{
+					sprite_index = sDoore;
+				}
 		}
 	else if(facing = "up")
 		{
 			sprite_index = swordU;
 			if image_index = 7
-			{
-				sprite_index = sDoore;
-			}
+				{
+					object_index = sDoore;
+				}
 		}
 	else if(facing = "down")
 		{
 			sprite_index = swordD;
 			if image_index = 7
-			{
-				sprite_index = sDoore;
-			}
+				{
+					object_index = sDoore;
+				}
 		}
 }
 

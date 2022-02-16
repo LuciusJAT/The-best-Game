@@ -1,8 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-script PlayerHurt()
-{
+
 	if oDoore.hp = 2
 	{
 		sprite_index = Hearts2
@@ -11,4 +10,3 @@ script PlayerHurt()
 	{
 		sprite_index = Hearts1
 	}
-}	
