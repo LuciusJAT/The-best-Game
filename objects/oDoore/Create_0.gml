@@ -22,6 +22,7 @@ oDoore.isinvincible = false;
 
 global.coins = 0;
 
+idle = sprite_index = sDoore
 
 //in hud create global. Lives = 3
 //global. Lives -= 1

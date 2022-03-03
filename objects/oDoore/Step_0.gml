@@ -73,37 +73,35 @@ if keyboard_check_pressed(vk_enter)
 	
 	if(facing = "right")
 		{
+			canhit = true;
 			sprite_index = swordR;
-			if image_index = 7
-				{
-					sprite_index = sDoore;
-				}
+			image_index = 0;
+			image_speed = 1;
 		}
 		
 	else if (facing = "left")
 		{
 			sprite_index = swordL;
-			if image_index = 7
-				{
-					sprite_index = sDoore;
-				}
+			image_index = 0;
+			image_speed = 1;	
 		}
 	else if(facing = "up")
 		{
 			sprite_index = swordU;
-			if image_index = 7
-				{
-					object_index = sDoore;
-				}
+			image_index = 0;
+			image_speed = 1;
 		}
 	else if(facing = "down")
 		{
 			sprite_index = swordD;
-			if image_index = 7
-				{
-					object_index = sDoore;
-				}
+			image_index = 0;
+			image_speed = 1;	
 		}
+	}
+//WHEN I ADD WALKING ANIMATION I NEED TO REWRITE THIS
+if (image_index > image_number - 1)
+{
+	image_speed = 0;
 }
-
 //else sprite_index = sDoore
+

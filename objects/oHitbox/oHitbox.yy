@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "swordR",
-    "path": "sprites/swordR/swordR.yy",
+    "name": "sHitbox",
+    "path": "sprites/sHitbox/sHitbox.yy",
   },
   "solid": true,
   "visible": true,
@@ -22,15 +22,16 @@
   "physicsShapePoints": [],
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Doore",
-    "path": "folders/Objects/Doore.yy",
+    "name": "Objects",
+    "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "oSwordR",
+  "name": "oHitbox",
   "tags": [],
   "resourceType": "GMObject",
 }
