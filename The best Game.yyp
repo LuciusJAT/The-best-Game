@@ -37,6 +37,7 @@
     {"id":{"name":"TopRightMIssing","path":"rooms/TopRightMIssing/TopRightMIssing.yy",},"order":3,},
     {"id":{"name":"EnemyDeath","path":"scripts/EnemyDeath/EnemyDeath.yy",},"order":3,},
     {"id":{"name":"oCoin","path":"objects/oCoin/oCoin.yy",},"order":2,},
+    {"id":{"name":"Ldoore","path":"sprites/Ldoore/Ldoore.yy",},"order":7,},
     {"id":{"name":"oSwordL","path":"objects/oSwordL/oSwordL.yy",},"order":2,},
     {"id":{"name":"sDirt","path":"sprites/sDirt/sDirt.yy",},"order":0,},
     {"id":{"name":"PlayerDeath","path":"scripts/PlayerDeath/PlayerDeath.yy",},"order":1,},

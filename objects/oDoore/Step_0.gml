@@ -74,6 +74,7 @@ if keyboard_check_pressed(vk_enter)
 	if(facing = "right")
 		{
 			canhit = true;
+			alarm_set(1,2);
 			sprite_index = swordR;
 			image_index = 0;
 			image_speed = 1;

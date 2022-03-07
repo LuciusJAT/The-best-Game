@@ -4,11 +4,11 @@ function EnemyHurt()
 {
 	if (!other.isinvincible)
 	{
-	other.isinvincible = true;
-	alarm_set(0, 2);
-	other. hp -= 1;
+	other.isinvincible = false;
+	alarm_set(0, 10);
+	other.hp -= 1;
 
-		if (other. hp<1)
+		if (other.hp<1)
 		{
 			EnemyDeath();
 		}
