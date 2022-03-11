@@ -1,6 +1,12 @@
 /// @description Insert description here
 // You can write your code in this editor
 // how many pixels we move per frame
+enum states
+{
+movement
+}
+state = states.movement;
+
 xSpeed = 4;
 ySpeed = 4;
 
