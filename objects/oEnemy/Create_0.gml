@@ -1,4 +1,5 @@
 /// @description Insert description here
 // You can write your code in this editor
-isinvincible = false;
+
+isinvincible = true;
 hp = 2;

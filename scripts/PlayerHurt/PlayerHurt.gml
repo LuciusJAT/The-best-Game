@@ -5,7 +5,7 @@ function PlayerHurt(){
 		{
 			oDoore.hp -=1;
 			isinvincible = true;
-			alarm_set(0,10);
+			alarm_set(0,20);
 				if (oDoore.hp<1)
 					{
 						PlayerDeath();
