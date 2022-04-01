@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "swordU",
-    "path": "sprites/swordU/swordU.yy",
+    "name": "sHeal",
+    "path": "sprites/sHeal/sHeal.yy",
   },
   "solid": false,
   "visible": true,
@@ -24,11 +24,11 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Doore",
-    "path": "folders/Objects/Doore.yy",
+    "name": "Objects",
+    "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "oSwordU",
+  "name": "oHeal",
   "tags": [],
   "resourceType": "GMObject",
 }

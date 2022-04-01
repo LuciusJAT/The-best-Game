@@ -3,4 +3,8 @@
 
 draw_text(40,40,"coins:" + string(global.coins));
 
+draw_text(40,80,"facing:" + string(oDoore.facing));
+
+draw_text(40,120,"sprite:" + string(oDoore.sprite_index));
+
 

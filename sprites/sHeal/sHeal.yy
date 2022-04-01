@@ -7,15 +7,15 @@
   "edgeFiltering": false,
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
-  "bbox_left": 0,
-  "bbox_right": 31,
-  "bbox_top": 0,
-  "bbox_bottom": 31,
+  "bbox_left": 17,
+  "bbox_right": 43,
+  "bbox_top": 17,
+  "bbox_bottom": 60,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 32,
-  "height": 32,
+  "width": 64,
+  "height": 64,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"5dff30e9-92de-4f9b-ac75-d99feaecd818","path":"sprites/sDirt/sDirt.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"5dff30e9-92de-4f9b-ac75-d99feaecd818","path":"sprites/sDirt/sDirt.yy",},"LayerId":{"name":"e3e5ed9e-3673-4f09-bb1d-28b06d8e3b11","path":"sprites/sDirt/sDirt.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sDirt","path":"sprites/sDirt/sDirt.yy",},"resourceVersion":"1.0","name":"5dff30e9-92de-4f9b-ac75-d99feaecd818","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"f8efe787-0ec5-4077-a3e4-820a386ed960","path":"sprites/sHeal/sHeal.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"f8efe787-0ec5-4077-a3e4-820a386ed960","path":"sprites/sHeal/sHeal.yy",},"LayerId":{"name":"6dffebec-6f9e-44ef-85e3-b1ca32b0926f","path":"sprites/sHeal/sHeal.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sHeal","path":"sprites/sHeal/sHeal.yy",},"resourceVersion":"1.0","name":"f8efe787-0ec5-4077-a3e4-820a386ed960","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"sDirt","path":"sprites/sDirt/sDirt.yy",},
+    "spriteId": {"name":"sHeal","path":"sprites/sHeal/sHeal.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"3359f0bc-9a02-4bd9-a6bf-3ffe16ffe694","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"5dff30e9-92de-4f9b-ac75-d99feaecd818","path":"sprites/sDirt/sDirt.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"fd50fc61-9452-47dd-9b9c-5de216e093c3","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"f8efe787-0ec5-4077-a3e4-820a386ed960","path":"sprites/sHeal/sHeal.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -58,14 +58,14 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"sDirt","path":"sprites/sDirt/sDirt.yy",},
+    "parent": {"name":"sHeal","path":"sprites/sHeal/sHeal.yy",},
     "resourceVersion": "1.3",
-    "name": "sDirt",
+    "name": "sHeal",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"e3e5ed9e-3673-4f09-bb1d-28b06d8e3b11","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"6dffebec-6f9e-44ef-85e3-b1ca32b0926f","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
@@ -73,7 +73,7 @@
     "path": "folders/Sprites.yy",
   },
   "resourceVersion": "1.0",
-  "name": "sDirt",
+  "name": "sHeal",
   "tags": [],
   "resourceType": "GMSprite",
 }

@@ -8,7 +8,10 @@ function PlayerHurt(){
 			alarm_set(0,20);
 				if (oDoore.hp<1)
 					{
-						PlayerDeath();
+						function PlayerDeath()
+						{
+							room_restart();
+						}
 					}
 		}
 }

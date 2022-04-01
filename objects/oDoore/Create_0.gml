@@ -3,12 +3,18 @@
 // how many pixels we move per frame
 enum states
 {
-movement
+movement,
+facing
 }
+
+state_array[states.movement] = StatePlayerMovement;
+state_array[states.facing] = PlayerStateFacing;
+
+
 state = states.movement;
 
-xSpeed = 4;
-ySpeed = 4;
+xSpeed = 1;
+ySpeed = 1;
 
 // direction we are facing
 xDirection = 0;
@@ -33,3 +39,26 @@ sprite_index = sDoore
 //in hud create global. Lives = 3
 //global. Lives -= 1
 // if global. Lives >0
+
+enum directions
+{
+	right,
+	left,
+	up,
+	down,
+	idle
+}
+
+sword_sprite_array[directions.right] = swordR;
+sword_sprite_array[directions.left] = swordL;
+sword_sprite_array[directions.up] = swordU;
+sword_sprite_array[directions.down] = swordD;
+sword_sprite_array[directions.idle] = sDoore;
+
+
+facing = directions.idle;
+//state = states.movement;
+
+
+ 
+

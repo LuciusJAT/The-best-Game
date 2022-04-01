@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sDirt",
-    "path": "sprites/sDirt/sDirt.yy",
+    "name": "Swall",
+    "path": "sprites/Swall/Swall.yy",
   },
   "solid": true,
   "visible": true,
