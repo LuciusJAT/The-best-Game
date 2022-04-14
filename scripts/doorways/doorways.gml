@@ -1,7 +1,11 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 
-function Door()
+function doorways()
 {
-	
-}	
+	place_meeting(x,y,oRdoor)
+	{
+		room_goto_next()
+	}	
+}
+

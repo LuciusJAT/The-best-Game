@@ -2,11 +2,11 @@
   "isDnD": false,
   "isCompatibility": false,
   "parent": {
-    "name": "The best Game",
-    "path": "The best Game.yyp",
+    "name": "Scripts",
+    "path": "folders/Scripts.yy",
   },
   "resourceVersion": "1.0",
-  "name": "PlayerHurt",
+  "name": "doorways",
   "tags": [],
   "resourceType": "GMScript",
 }
