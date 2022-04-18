@@ -5,7 +5,7 @@ function doorways()
 {
 	place_meeting(x,y,oRdoor)
 	{
-		room_goto_next()
+		room_goto(room_array[irandom(14)])
 	}	
 }
 

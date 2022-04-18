@@ -4,17 +4,28 @@
 //how to enter state
 function StatePlayerMovement()
 {
-xVector = xSpeed * xDirection;
-yVector = ySpeed * yDirection;
+	sprite_index = sDoore;
+	xVector = xSpeed * xDirection;
+	yVector = ySpeed * yDirection;
 
-//TODO: ask ansell about setting facing on monday
+	//TODO: ask ansell about setting facing on monday
 
-CheckCollisionsX();
-x = x + xVector;
+	CheckCollisionsX();
+	x = x + xVector;
 
-CheckCollisionsY();
-y = y - yVector;
+	CheckCollisionsY();
+	y = y - yVector;
+
+
+	//how to enter other state and exit thi state
+	if (keyboard_check_pressed(vk_enter))
+	{
+		state = states.sword;
+	}
+	
+	
+	
+
 }
 
 
-//how to enter other state and exit thi state

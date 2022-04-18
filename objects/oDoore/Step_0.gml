@@ -1,19 +1,11 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+PlayerFacing();
 script_execute(state_array[state])
-PlayerStateFacing();
+
 CheckInputs();
 
-sprite_index = sword_sprite_array[facing];
-
-/*
-if keyboard_check_pressed(vk_enter)
-	{
-		sprite_index = swordD//sword_sprite_array[facing];
-	}
-
-*/
 xDirection = right - left;
 yDirection = up - down;
 
