@@ -63,7 +63,17 @@ sword_sprite_array[directions.down] = swordD;
 facing = directions.idle;
 //state = states.movement;
 
+RightDoor_array = [NoDoorOnRight, NoDoorOnBottom, NoDoorOnTop, 
+ BottomRightMissing, TopBottomMissing, TopRightMIssing,
+ OnlyLeft, AllDoors];
 
+LeftDoor_array = [NoDoorOnBottom, NoDoorOnLeft, NoDoorOnTop, TopBottomMissing, TopLeftMissing, 
+BottomLeftMissing, OnlyRight, AllDoors];
 
+UpDoor_array = [AllDoors, OnlyBottom, NoDoorOnLeft, NoDoorOnRight , NoDoorOnTop, TopLeftMissing, 
+TopRightMIssing, LeftRightMissing];
+
+DownDoor_array = [NoDoorOnLeft, NoDoorOnBottom, NoDoorOnRight, BottomLeftMissing, BottomRightMissing, 
+LeftRightMissing, OnlyTop, AllDoors];
  
 

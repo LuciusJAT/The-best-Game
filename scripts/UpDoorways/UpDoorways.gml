@@ -1,11 +1,11 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 
-function doorways()
+function UpDoorways()
 {
-	place_meeting(x,y,oRdoor)
+	place_meeting(x,y,oUdoor)
 	{
-		room_goto(room_array[irandom(14)])
+		room_goto(UpDoor_array[irandom(7)])
 	}	
 }
 
